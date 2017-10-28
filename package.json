@@ -1,0 +1,31 @@
+{
+  "name": "web-ar-tracking",
+  "version": "1.0.0",
+  "description": "web ar tracking demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "atool-build"
+  },
+  "dependencies": {
+    "atool-build": "^0.11.1",
+    "jsfeat": "^0.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianZeng/web-ar-tracking.git"
+  },
+  "keywords": [
+    "web",
+    "ar"
+  ],
+  "author": "zbr80259@alibaba-inc.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianZeng/web-ar-tracking/issues"
+  },
+  "entry": {
+    "index": "./src/feat.js"
+  },
+  "homepage": "https://github.com/brianZeng/web-ar-tracking#readme"
+}
